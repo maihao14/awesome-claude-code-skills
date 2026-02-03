@@ -1,5 +1,7 @@
 # Awesome Claude Code Skills
 
+![Code Banner](./assets/code_banner.png)
+
 A curated list of code-focused Claude Skills for software engineering, data platforms, ML, and DevOps. Each skill lives in its own folder with a SKILL.md file.
 
 ## Contents
