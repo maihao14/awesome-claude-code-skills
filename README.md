@@ -20,9 +20,19 @@ Claude Skills are reusable, task‑focused workflows. This collection helps peop
 - Share reusable building blocks with the community
 
 ## How to use
-- Pick a skill that matches your task and open its `SKILL.md`
-- Follow the workflow and adapt it to your project
-- If something’s missing, propose an improvement or add a new skill
+Use Skills in Claude:
+1. Open `Settings` → `Capabilities`
+2. Enable `Code execution` and `File creation` (required for Skills)
+3. In `Skills`, toggle the skills you want
+4. Click `Upload skill` and upload a ZIP file containing your skill folder
+5. Start a chat and describe your task; Claude will load relevant skills automatically
+
+Use this repository:
+1. Pick a skill folder and open its `SKILL.md`
+2. Follow the workflow, then adapt it to your project
+3. If something’s missing, propose an improvement or add a new skill
+
+Team and Enterprise owners can provision skills org‑wide in Admin settings; users can still toggle them on or off in their own settings.
 
 ## Skills
 
