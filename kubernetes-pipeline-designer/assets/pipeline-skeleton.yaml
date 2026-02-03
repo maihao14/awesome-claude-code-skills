@@ -1,0 +1,35 @@
+# Pipeline Skeleton (generic)
+name: ci-cd
+
+stages:
+  - build
+  - test
+  - scan
+  - deploy
+  - verify
+
+build:
+  stage: build
+  script:
+    - echo "Build container"
+
+unit_test:
+  stage: test
+  script:
+    - echo "Run unit tests"
+
+image_scan:
+  stage: scan
+  script:
+    - echo "Scan image"
+
+deploy_dev:
+  stage: deploy
+  script:
+    - echo "Deploy to dev"
+  when: on_success
+
+verify_dev:
+  stage: verify
+  script:
+    - echo "Smoke test"
