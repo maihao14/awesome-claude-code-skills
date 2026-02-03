@@ -2,12 +2,27 @@
 
 ![Code Banner](./assets/code_banner.png)
 
-A curated list of code-focused Claude Skills for software engineering, data platforms, ML, and DevOps. Each skill lives in its own folder with a SKILL.md file.
+This code skill repository focuses on enterprise‑grade Claude and ChatGPT development skills across data platforms, ML, and DevOps. Each skill is self‑contained in its own folder with a clear `SKILL.md` workflow.
+
+If you build tools, design systems, or automate workflows, you’re in the right place. New contributors are welcome.
 
 ## Contents
-- Data Platforms and MLOps
-- DevOps and Platform Engineering
-- Computer Vision
+- [Why this repo](#why-this-repo)
+- [How to use](#how-to-use)
+- [Skills](#skills)
+- [How to contribute](#how-to-contribute)
+- [Quality bar](#quality-bar)
+
+## Why this repo
+Claude Skills are reusable, task‑focused workflows. This collection helps people:
+- Ship faster with proven patterns
+- Learn practical approaches across domains
+- Share reusable building blocks with the community
+
+## How to use
+- Pick a skill that matches your task and open its `SKILL.md`
+- Follow the workflow and adapt it to your project
+- If something’s missing, propose an improvement or add a new skill
 
 ## Skills
 
@@ -20,5 +35,23 @@ A curated list of code-focused Claude Skills for software engineering, data plat
 ### Computer Vision
 - [Computer Vision Object Detection](./computer-vision-object-detection/) - Plan data, training, evaluation, and deployment for object detection models.
 
-## Contributing
-See CONTRIBUTING.md.
+## How to contribute
+We love collaborations, big or small. You can:
+- Add a new skill
+- Improve an existing skill
+- Fix typos, clarity issues, or broken steps
+- Suggest new categories
+
+Quick start:
+1. Create a new folder with a clear name
+2. Add a `SKILL.md` that explains the workflow end‑to‑end
+3. Update this README to list the skill
+
+See `CONTRIBUTING.md` for full guidelines.
+
+## Quality bar
+Skills should be:
+- Actionable and specific
+- Easy to follow and implement
+- Clearly scoped to a real task
+- Maintained with examples or references when helpful
